@@ -994,3 +994,63 @@ footer {
     border-color: #9b8cff;
     transform: translateY(-3px);
 }
+/* CONTACT FIX */
+
+#contact {
+    padding: 140px 8% !important;
+    min-height: 70vh;
+    border-top: 1px solid #151515;
+}
+
+#contact .section-label {
+    color: #9b8cff !important;
+    font-size: 13px !important;
+    letter-spacing: 5px !important;
+    margin-bottom: 80px !important;
+}
+
+#contact .contact-content {
+    max-width: 1000px !important;
+}
+
+#contact h2 {
+    font-size: clamp(55px, 8vw, 110px) !important;
+    line-height: 0.9 !important;
+    letter-spacing: -5px !important;
+    margin: 0 !important;
+    color: #ffffff !important;
+}
+
+#contact h2 span {
+    color: #9b8cff !important;
+}
+
+#contact p {
+    max-width: 650px !important;
+    color: #777777 !important;
+    font-size: 18px !important;
+    line-height: 1.8 !important;
+    margin-top: 40px !important;
+}
+
+#contact .contact-links {
+    display: flex !important;
+    gap: 15px !important;
+    margin-top: 45px !important;
+}
+
+#contact .contact-links a {
+    display: inline-block !important;
+    text-decoration: none !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+    padding: 15px 28px !important;
+    border-radius: 30px !important;
+    transition: all 0.3s ease !important;
+}
+
+#contact .contact-links a:hover {
+    color: #9b8cff !important;
+    border-color: #9b8cff !important;
+    transform: translateY(-3px);
+}
