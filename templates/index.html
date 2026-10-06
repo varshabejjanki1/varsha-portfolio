@@ -44,59 +44,106 @@
 
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+<section id="home" class="hero creative-hero">
 
-        <div class="hero-content">
+    <div class="hero-content">
 
-            <p class="small-text">HELLO, I'M</p>
+        <p class="hero-kicker">
+            ECE ENGINEER · BUILDER · CREATOR
+        </p>
 
-            <h1>
-                Varsha<br>
-                <span>Bejjanki</span>
-            </h1>
+        <h1>
+            Varsha
+            <span>Bejjanki.</span>
+        </h1>
 
-            <h2>
-                ECE × Python × AI × Web
-            </h2>
+        <h2>
+            I build where
+            <span>intelligence</span>
+            meets hardware.
+        </h2>
 
-            <p class="hero-description">
-                I build intelligent software and hardware solutions
-                that connect technology with real-world problems.
-            </p>
+        <p class="hero-description">
+            Python, AI, IoT, embedded systems, PCB design and web —
+            turning ideas into practical real-world solutions.
+        </p>
 
-            <div class="hero-buttons">
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary-btn">
+                Explore My Work ↗
+            </a>
 
-                <a href="#projects" class="btn primary-btn">
-                    Explore My Work
-                </a>
-
-                <a href="#contact" class="btn secondary-btn">
-                    Contact Me
-                </a>
-
-            </div>
-
+            <a href="{{ url_for('static', filename='resume/Varsha_Bejjanki_Resume.pdf') }}"
+               class="btn secondary-btn"
+               target="_blank">
+                View Resume ↗
+            </a>
         </div>
 
-
-        <!-- Right side visual -->
-        <div class="hero-visual">
-
-            <div class="orbit">
-
-                <div class="orbit-text">
-                    PYTHON • AI • ECE • WEB •
-                </div>
-
-                <div class="center-circle">
-                    VB
-                </div>
-
-            </div>
-
+        <div class="hero-socials">
+            <a href="https://github.com/varshabejjanki1" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/varsha-bejjanki-bb724b382" target="_blank">LinkedIn</a>
+            <a href="mailto:varshabejjanki1@gmail.com">Email</a>
         </div>
 
-    </section>
+    </div>
+
+
+    <div class="hero-lab">
+
+        <div class="lab-grid"></div>
+
+        <div class="lab-glow"></div>
+
+        <div class="core">
+            <div class="core-inner">
+                VB<span>.</span>
+            </div>
+        </div>
+
+        <div class="tech-chip chip-ai">
+            <strong>AI / ML</strong>
+            <small>Intelligent Systems</small>
+        </div>
+
+        <div class="tech-chip chip-iot">
+            <strong>IoT</strong>
+            <small>Connected Devices</small>
+        </div>
+
+        <div class="tech-chip chip-embedded">
+            <strong>Embedded</strong>
+            <small>Hardware Logic</small>
+        </div>
+
+        <div class="tech-chip chip-pcb">
+            <strong>PCB DESIGN</strong>
+            <small>From Idea → Circuit</small>
+        </div>
+
+        <div class="tech-chip chip-python">
+            <strong>PYTHON</strong>
+            <small>Code · Build · Create</small>
+        </div>
+
+        <div class="floating-label">
+            <span>01</span>
+            IDEA
+        </div>
+
+        <div class="floating-label label-build">
+            <span>02</span>
+            BUILD
+        </div>
+
+        <div class="floating-label label-impact">
+            <span>03</span>
+            IMPACT
+        </div>
+
+    </div>
+
+</section>
 
 
 <!-- About Section -->
